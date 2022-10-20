@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE serie[
+<!ELEMENT serie (capitulos+)>
+<!ELEMENT capitulos (temporada, numero, titulo, sinopsis?, duracion, opiniones+)>
+<!ELEMENT temporada (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT sinopsis (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT opiniones (#PCDATA)>
+<!ENTITY t1 "temporada1">
+<!ENTITY t2 "temporada2">
+<!ENTITY t3 "temporada3">
+]>
+
+<serie>
+<capitulos>
+<temporada>&t1;</temporada>
+<numero>4</numero>
+<titulo>Pato</titulo>
+<duracion>1:45</duracion>
+<opiniones>Mal</opiniones>
+</capitulos>
+<capitulos>
+<temporada>&t2;</temporada>
+<numero>5</numero>
+<titulo>Pato</titulo>
+<duracion>1:5</duracion>
+<opiniones>Bien</opiniones>
+</capitulos>
+</serie>
+

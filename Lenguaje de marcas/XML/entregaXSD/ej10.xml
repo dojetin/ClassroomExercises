@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<heladeria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/Usuario/OneDrive/Documents/Lenguaje%20de%20marcas/XML/entregaXSD/ej10.xsd">
+<helado>
+      <sabor>fresa</sabor>
+      <tipo>cono</tipo>
+      <tamaño>grande</tamaño>
+</helado>
+
+<helado>
+      <sabor>chocolate</sabor>
+      <tipo>cono</tipo>
+      <tamaño>mediano</tamaño>
+</helado>
+
+<helado>
+      <sabor>limon</sabor>
+      <tipo>tarrina</tipo>
+      <tamaño>pequeño</tamaño>
+</helado>
+
+<helado>
+      <sabor>vainilla</sabor>
+      <tipo>tarrina</tipo>
+      <tamaño>grande</tamaño>
+</helado>
+</heladeria>

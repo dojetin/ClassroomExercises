@@ -1,0 +1,64 @@
+package PRACTICA1;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.RandomAccessFile;
+import java.util.Scanner;
+
+public class Pracej7 {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		/*
+		 	7) Modificación: Recibe un identificador de chuchería y un importe. Se debe realizar
+				la modificación del precio. La modificación consistirá en sumar al precio de la
+				chuchería el importe introducido. El programa debe visualizar el Tipo de
+				chuchería, el precio antiguo y el nuevo. Si el identificador no existe, se realizará
+				una inserción del mismo y se informará de la operación realizada.
+		 */
+		File fichero = new File("C:\\Users\\Usuario\\OneDrive\\Documents\\Programación\\acceso\\src\\PRACTICA1\\quiosco.dat");
+		RandomAccessFile raf=new RandomAccessFile(fichero,"rw");
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Dime el identificador de la chuchería");
+		int id=sc.nextInt();
+		System.out.println("Dime el importe");
+		double importe=sc.nextDouble();
+		int posSeek=-56;
+		boolean existe=false;
+		sc.close();
+		try {
+
+
+			while (true) {
+				posSeek+=56;
+				raf.seek(posSeek);
+				int idArchivo=raf.readInt();
+				if (idArchivo==id) {
+					existe=true;
+					System.out.println("ID: "+idArchivo);
+					raf.readInt();
+					sc.nextLine();
+					System.out.print("TipoChuche: ");
+					for (int i = 0; i < 20; i++) {
+						System.out.print(raf.readChar());
+					}
+					
+					System.out.println();
+					double antiguoImporte=raf.readDouble();
+					double nuevoImporte=importe+antiguoImporte;
+					raf.writeDouble(nuevoImporte);
+					System.out.println("Antiguo importe "+ antiguoImporte);
+					System.out.println("Precio nuevo: "+nuevoImporte);
+					existe=true;
+				}
+			}
+		} catch (Exception e) {
+			if (existe==false) {}
+				raf.seek(raf.length());
+				raf.writeInt(id);
+				raf.writeDouble(importe);
+				System.out.println("Se han introducido los datos correctamente");		
+			}
+			raf.close();
+		}
+	}

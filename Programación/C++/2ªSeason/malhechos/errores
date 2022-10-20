@@ -1,0 +1,8 @@
+ej1 error en el primer while tiene que ser num < 0
+    error segundo while contador < 0
+    error en el dowhile contador tiene que ser -- no ++
+
+en el ej 2 todas las variables numi deberian ser cambiadas por num
+
+en el ej3 falta el using namespace std;
+ y la ultima linea es l1.colorLibro=rojo;

@@ -1,0 +1,25 @@
+package PRACTICA1;
+
+import java.util.Scanner;
+
+public class Pracej6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 6) Inserción: Crea un método Java que inserte una chuchería en el fichero
+			“quiosco.dat”. El programa debe recibir 4 parámetros: identificador de la
+			chuchería, la estantería, el tipo de chuchería y el precio sin IVA. Antes de insertar
+			se comprobará si el identificador existe, en ese caso se debe visualizar un
+			mensaje indicándolo; si no existe se deberá insertar en la última posición del
+			fichero. 
+		 */
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Dame el identificador de la chucheria");
+		
+		
+		
+		sc.close();
+	}
+
+}

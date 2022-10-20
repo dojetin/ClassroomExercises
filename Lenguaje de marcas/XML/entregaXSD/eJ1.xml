@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<listaCompra xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/Usuario/OneDrive/Documents/Lenguaje%20de%20marcas/XML/entregaXSD/ej1.xsd">
+<Mercadona>
+    <leche cantidad="12" unidad="litros">Hacendado</leche>
+    <pan cantidad="3">Barras</pan>
+</Mercadona>
+<Carrefour>
+    <fruteria>Patatas, tomates, zanahoria</fruteria>
+</Carrefour>
+</listaCompra>

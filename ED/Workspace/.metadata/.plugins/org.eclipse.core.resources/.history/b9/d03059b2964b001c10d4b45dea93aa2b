@@ -1,0 +1,42 @@
+package prueba.junit;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class ParImparTest {
+
+	@Test
+	void testPar() {
+		int numeroPrueba=2;
+		ParImpar pepito=new ParImpar();
+		String resultado=pepito.parImpar(2);
+		assertEquals(resultado, "Par");
+	}
+	@Test
+	void testImpar() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testErrorPar() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testErrorTipoPar() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testErrorImpar() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testErrorTipoImpar() {
+		fail("Not yet implemented");
+	}
+
+
+}

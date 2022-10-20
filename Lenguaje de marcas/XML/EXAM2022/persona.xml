@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<persona dni="12345678-M" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/Usuario/OneDrive/Documents/Lenguaje%20de%20marcas/XML/EXAM2022/persona.xsd">
+  <estadoCivil>Soltero</estadoCivil>
+  <edad>120</edad>
+    <enActivo/>
+</persona>

@@ -1,0 +1,28 @@
+package PRACTICA1;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.RandomAccessFile;
+import java.util.Scanner;
+
+public class Pracej5 {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		Scanner sc = new Scanner (System.in);
+
+		/*
+		  5) Consulta: Crea un método Java que consulte los datos de un tipo de chuchería
+			del fichero “quiosco.dat”. El programa solicitará un identificador desde línea de
+			comandos. Si la chuchería existe, se visualizarán sus datos, si no existe, se
+			visualizará un mensaje indicándolo.
+		*/
+		File fichero = new File("C:\\Users\\Usuario\\OneDrive\\Documents\\Programación\\acceso\\src\\PRACTICA1\\quiosco.dat");
+		RandomAccessFile raf=new RandomAccessFile(fichero,"rw");
+		System.out.println("Dime el identificador de la chucheria");
+		int ide=sc.nextInt();
+		if (condition) {
+			
+		}
+	}
+
+}

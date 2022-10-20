@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<universidad>
+      <alumnos>
+          <dni>49164571R</dni>
+          <nombre>David</nombre>
+          <apellidos>Ojeda Martín</apellidos>
+          <fechaNacimiento>04/05/2002</fechaNacimiento>
+          <contacto>
+              <direccionPostal>monaco 7</direccionPostal>
+              <telefono>73637373737</telefono>
+              <correo>dadoamdanc@gmail.com</correo>
+          </contacto>
+          
+          
+      </alumnos>
+
+</universidad>

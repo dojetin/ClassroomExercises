@@ -1,0 +1,28 @@
+package pruebaBancaria;
+
+public class CuentaBancaria {
+	private String titular;
+	private String numCuenta;
+	private float saldo;
+	
+	public CuentaBancaria() {
+		super();
+	}
+
+	public CuentaBancaria(String nombre, String nCuenta, float saldo) {
+		super();
+		this.titular = nombre;
+		this.numCuenta = nCuenta;
+		this.saldo = saldo;
+	}
+	
+	public void ingresar(Float cantidad) {
+		saldo=saldo+cantidad;
+	}
+	public void compra(Float cantidad) {
+		saldo=saldo-cantidad;
+	}
+	public void transferencia (CuentaBancaria cuenta,int dinerito) {
+		this.saldo=this.saldo-dinerito;
+	}
+}

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<editoriales xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/Usuario/OneDrive/Documents/Lenguaje%20de%20marcas/XML/entregaXSD/ej8.xsd">
+<editorial>
+    <nombre>Anaya</nombre>
+    <direccion>Sucasa n6</direccion>
+    <email>anayaoficinas@sucasa6.com</email>
+</editorial>
+<editorial>
+    <nombre>S.L</nombre>
+    <direccion>SLcalleinvent n7</direccion>
+    <pagina>anayasucasa.es</pagina>
+</editorial>
+<editorial>
+    <nombre>ofertas</nombre>
+    <direccion>ofertitis n9</direccion>
+    <pagina>jairo pruebameasa.es</pagina>
+    <telefono>637837389</telefono>
+    <fax>73637826373763837</fax>
+</editorial>
+</editoriales>

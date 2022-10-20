@@ -1,0 +1,29 @@
+package PRACTICA1;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+
+public class Pracej2 {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		/*
+		 * 2) Dado el fichero “quijote.txt” debemos contar el número de palabras que
+		 * contiene el fichero haciendo uso de la clase “BufferedReader”
+	*/ 
+	File fichero = new File("C:\\Users\\Usuario\\OneDrive\\Documents\\Programación\\acceso\\src\\PRACTICA1\\quijote.txt");
+	FileReader fr2 = new FileReader(fichero);
+	BufferedReader fileR2 = new BufferedReader(fr2);
+	int numPalabras=0;
+	while (fileR2.ready()) {
+		String linea2=fileR2.readLine();
+		String[] arrayPalabras=linea2.split(" ");
+		numPalabras+=arrayPalabras.length;
+	}
+	fileR2.close();
+	System.out.println(numPalabras);
+	}
+
+}

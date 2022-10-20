@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="pruebas.Persona"/>
+    <fullyQualifiedTypeName name="clases.Vehiculos"/>
+    <fullyQualifiedTypeName name="contador.Contador"/>
+    <fullyQualifiedTypeName name="funciones.FuncionesAritmeticas"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="furvo.Jugador"/>
+    <fullyQualifiedTypeName name="principal.Circulo"/>
+    <fullyQualifiedTypeName name="principal.Cuadrado"/>
+    <fullyQualifiedTypeName name="principal.Triangulo"/>
+    <fullyQualifiedTypeName name="principal.Rectangulo"/>
+    <fullyQualifiedTypeName name="principak.LlenarNumeros"/>
+    <fullyQualifiedTypeName name="junit.sumatorio"/>
+    <fullyQualifiedTypeName name="com.mongodb.BasicDBObject"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
+    <fullyQualifiedTypeName name="com.mongodb.DBObject"/>
+</qualifiedTypeNameHistroy>

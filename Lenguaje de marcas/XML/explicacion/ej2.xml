@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<futbol>
+<equipo nombre="Selección FIFA 21" entrenador="tuMismo"/>
+<jugador nombre="Lionel Messi" codigo="lme"/>
+<jugador nombre="Cristiano Ronaldo" codigo="cro"/>
+<jugador nombre="Neymar Jr." codigo="njr"/>
+<jugador nombre="Eden Hazard" codigo="eha"/>
+<equipo/>
+</futbol>

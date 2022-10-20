@@ -1,0 +1,8 @@
+<!ELEMENT almacen (articulo+)>
+<!ELEMENT articulo (codigo, nombre, descripcion?, categoria+, precio?, publico?)>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT publico EMPTY>

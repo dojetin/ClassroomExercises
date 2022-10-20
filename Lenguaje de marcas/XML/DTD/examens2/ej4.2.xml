@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libros [
+<!ELEMENT libros (libro*)>
+<!ELEMENT libro EMPTY>
+<!ATTLIST libro titulo CDATA #REQUIRED>
+<!ATTLIST libro referencia ID #REQUIRED>
+<!ATTLIST libro autor CDATA #REQUIRED>
+]>
+<libros>
+<libro titulo="Jarry Potel" autor="J.K.Rowlin"
+referencia="ref1"></libro>
+<libro titulo="La Amenaza Fantasma" referencia="ref2"
+autor="C3PO"></libro>
+<libro autor="Tolkien" referencia="ref3" titulo="El Señor de
+los Anillos"></libro>
+
+</libros>

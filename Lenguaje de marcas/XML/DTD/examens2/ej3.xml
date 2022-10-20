@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE atomos [
+<!ELEMENT atomos (atomo*)>
+<!ELEMENT atomo (nombre, simbolo, numero_atomico, peso_atomico, punto_ebullicion, carga)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT simbolo (#PCDATA)>
+<!ELEMENT numero_atomico (#PCDATA)>
+<!ELEMENT peso_atomico (#PCDATA)>
+<!ELEMENT punto_ebullicion (#PCDATA)>
+<!ELEMENT carga (#PCDATA)>
+
+<!ATTLIST atomo estado (solido | liquido | gaseoso | plasma) #REQUIRED>
+<!ATTLIST punto_ebullicion unidades (Fahrenheit | kelvin) "Fahrenheit">
+<!ATTLIST carga tipo (negativa | positiva) #REQUIRED>
+]>
+<atomos>
+    <atomo estado="gaseoso">
+      <nombre>Hidrogeno</nombre>
+      <simbolo>H</simbolo>
+      <numero_atomico>1</numero_atomico>
+      <peso_atomico>0,0001</peso_atomico>
+      <punto_ebullicion unidades="kelvin">0,1</punto_ebullicion>
+      <carga tipo="negativa">1</carga>
+    </atomo>
+</atomos>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pedidos[
+<!ELEMENT pedidos (pedido+)>
+<!ELEMENT pedido (cliente, articulo, total, precioFinal)>
+<!ELEMENT cliente (nombre, apellidos, id_cliente)>
+<!ELEMENT articulo (id_articulo, descripcion, precio, descuento*)>
+<!ELEMENT total (#PCDATA)>
+<!ELEMENT precioFinal (#PCDATA)>
+<!ATTLIST precioFinal iva (4 | 10 | 21) #IMPLIED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT id_cliente (#PCDATA)>
+<!ELEMENT id_articulo (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT descuento (#PCDATA)>
+]>
+
+<pedidos>
+        <pedido>
+            <cliente>
+                  <nombre>PEDRO</nombre>
+                  <apellidos>FEO FEO</apellidos>
+                  <id_cliente>1</id_cliente>
+            </cliente>
+            <articulo>
+                  <id_articulo>2</id_articulo>
+                  <descripcion>MALA</descripcion>
+                  <precio>3</precio>
+            </articulo>
+            <total>3,14</total>
+            <precioFinal>3</precioFinal>
+        </pedido>
+</pedidos>

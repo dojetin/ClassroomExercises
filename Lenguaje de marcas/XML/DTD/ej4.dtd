@@ -1,0 +1,10 @@
+<!ELEMENT serie (capitulos+)>
+<!ELEMENT capitulos (temporada, numero, titulo, sinopsis?, duracion, opiniones+)>
+<!ENTITY t1"temporada1">
+<!ENTITY t2"temporada2">
+<!ENTITY t3"temporada3">
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT sinopsis (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT opiniones (#PCDATA)>

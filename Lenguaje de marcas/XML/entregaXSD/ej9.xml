@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tabla xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/Usuario/OneDrive/Documents/Lenguaje%20de%20marcas/XML/entregaXSD/ej9.xsd">
+    <atomo estado="gaseoso">
+      <nombre>Oxigeno</nombre>
+      <simbolo>O</simbolo>
+      <numeroAtomico> 14</numeroAtomico>
+      <pesoAtomico>15,99u</pesoAtomico>
+      <puntoEbullicion unidades="ºC">-183</puntoEbullicion>
+      <densidad unidades="g/l">1,429</densidad>
+    </atomo>
+    
+      <atomo estado="solido">
+      <nombre>Carbono</nombre>
+      <simbolo>C</simbolo>
+      <numeroAtomico> 6</numeroAtomico>
+      <pesoAtomico>12,01u</pesoAtomico>
+      <puntoEbullicion unidades="ºC">4.800</puntoEbullicion>
+      <densidad unidades="g/cm3">2,25</densidad>
+    </atomo>
+    
+      <atomo estado="liquido">
+      <nombre>Cloro</nombre>
+      <simbolo>Cl</simbolo>
+      <numeroAtomico> 17</numeroAtomico>
+      <pesoAtomico>35,143u</pesoAtomico>
+      <puntoEbullicion unidades="ºC">-34</puntoEbullicion>
+      <densidad unidades="g/ml">0,573</densidad>
+    </atomo>
+
+</tabla>

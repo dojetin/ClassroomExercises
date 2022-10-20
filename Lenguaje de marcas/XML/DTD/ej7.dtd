@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recetario[
+<!ELEMENT recetario (receta+)>
+<!ELEMENT receta (nombre, comensales, ingredientes*, proceso*)>
+<!ELEMENT ingredientes (cantidad?, unidad?, ingrediente)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT comensales (#PCDATA)>
+<!ELEMENT ingrediente (#PCDATA)>
+<!ELEMENT proceso (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT unidad (#PCDATA)>
+]>
+<recetario>
+<receta>
+    <nombre>Sopa de cebolla</nombre>
+    <comensales>4</comensales>
+        <ingredientes>
+            <cantidad>1</cantidad>
+            <unidad>Kg</unidad>
+            <ingrediente>Cebollas</ingrediente>
+        </ingredientes>
+                <ingredientes>
+            <cantidad>2</cantidad>
+            <unidad>L</unidad>
+            <ingrediente>Caldo de carne</ingrediente>
+        </ingredientes>
+                <ingredientes>
+            <cantidad>100</cantidad>
+            <unidad>g</unidad>
+            <ingrediente>Mantequilla</ingrediente>
+        </ingredientes>
+          <ingredientes>
+            <cantidad>1</cantidad>
+            <unidad>cucharada</unidad>
+            <ingrediente>harina</ingrediente>
+        </ingredientes>
+          <ingredientes>
+            <cantidad>100</cantidad>
+            <unidad>g</unidad>
+            <ingrediente>queso</ingrediente>
+        </ingredientes>
+                <ingredientes>
+            <ingrediente>Pan en rebanadas</ingrediente>
+        </ingredientes>
+        <ingredientes>
+            <ingrediente>Tomillo</ingrediente>
+        </ingredientes>
+                <ingredientes>
+            <cantidad>1</cantidad>
+            <unidad>Hoja</unidad>
+            <ingrediente>Laurel</ingrediente>
+        </ingredientes>
+                <ingredientes>
+            <ingrediente>Pimienta</ingrediente>
+        </ingredientes>
+    <proceso>Pelar y partir las cebollas en rodajas finas.</proceso>
+    <proceso>Rehogarlas con la mantequilla, sal y pimienta a fuego lento hasta que estén transparentes sin dorarse.</proceso>
+    <proceso>Añadir la harina sin dejar de remover.</proceso>
+    <proceso>Ponerlo en una cazuela con el caldo, el tomillo y el laurel.</proceso>
+    <proceso>Dejar cocer a fuego lento durante unos 15 minutos.</proceso>
+    <proceso>Poner las rebanadas de pan encima, espolvorear el queso y gratinar al horno.</proceso>
+</receta>
+</recetario>

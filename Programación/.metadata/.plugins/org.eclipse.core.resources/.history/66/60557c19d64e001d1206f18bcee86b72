@@ -1,0 +1,38 @@
+package mysql;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+public class Clase1 {
+public static void main(String[] args) throws SQLException, ClassNotFoundException {
+//Vamos a necesitar las siguientes cadenas:
+//Driver que vamos a utilizar para realizar la conexión
+String driver = "com.mysql.cj.jdbc.Driver";
+//Cadena de conexión: url donde se encuentra la base de datos
+String cadenaConexion="jdbc:mysql://localhost:3306/camiones";
+//Nombre de usuario con el que vamos a acceder
+String usuario = "root";
+//Contraseña para ese usuario
+String password = "";
+//Consulta que vamos a lanzar contra la Base de Datos
+String consulta = "Select nombre from ciudades";
+// Creamos una instancia del driver jdbc a través de su nombre
+Class.forName(driver);
+//Creamos una conexión a través del DriverManager para esa cadena de conexión
+Connection conexion = DriverManager.getConnection(cadenaConexion,usuario,password);
+//Statement es una clase Java que se encarga de enviar consultas a través de la conexión
+Statement statement = conexion.createStatement();
+//ResultSet es una clase Java que almacena las filas de la tabla devueltas por la consulta
+ResultSet resultSet = statement.executeQuery(consulta);
+while (resultSet.next()) //Mientras el resultSet tenga filas
+{
+//Se imprimen por pantalla el valor de los datos seleccionados en la consulta
+System.out.print("Ciudades: " + resultSet.getString(1));
+}
+//Cierro recursos.
+resultSet.close();
+statement.close();
+conexion.close();
+}
+}

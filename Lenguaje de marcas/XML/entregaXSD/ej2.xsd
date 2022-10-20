@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+      
+      <xs:element name="futbol">
+          <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="equipo"/>
+          </xs:sequence>
+      </xs:complexType>
+      </xs:element>
+      
+            <xs:element name="equipo">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element ref="jugador" maxOccurs="10"/>
+          </xs:sequence>
+              <xs:attribute name="nombre" type="xs:string"></xs:attribute>
+              <xs:attribute name="entrenador" type="xs:string"></xs:attribute>
+        </xs:complexType>
+      </xs:element>
+
+    <xs:element name="jugador">
+              <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                        <xs:attribute name="nombreJ" type="xs:string"></xs:attribute>
+                                        <xs:attribute name="codigo" type="xs:string"></xs:attribute>
+                            </xs:extension>
+                        </xs:simpleContent>
+              </xs:complexType>
+    </xs:element>
+
+</xs:schema>
+
+ 

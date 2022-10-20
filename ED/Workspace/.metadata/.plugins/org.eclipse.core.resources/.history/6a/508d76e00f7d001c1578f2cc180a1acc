@@ -1,0 +1,10 @@
+
+public class harem {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		h1 heroe=new Heroe();
+	}
+
+}

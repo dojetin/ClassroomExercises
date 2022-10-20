@@ -1,0 +1,16 @@
+<!ELEMENT pedidos (pedido+)>
+<!ELEMENT pedido (cliente, articulo, total, precio_final)>
+<!ELEMENT cliente (nombre, apellidos, id_cliente)>
+<!ELEMENT articulo (id_articulo, descripcion, precio, descuento*)>
+<!ELEMENT total(#PCDATA)>
+<!ELEMENT precio_final(#PCDATA)>
+<!ATTLIST precio_final iva(4|10|21)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT id_cliente (#PCDATA)>
+<!ELEMENT id_articulo (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT descuento (#PCDATA)>
+
+

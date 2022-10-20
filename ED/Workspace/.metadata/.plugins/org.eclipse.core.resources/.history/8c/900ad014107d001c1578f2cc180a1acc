@@ -1,0 +1,26 @@
+
+public class Heroe {
+	private String alterEgo;
+	private String Nombre;
+	private Integer Edad; 
+	private Integer Salud; 
+
+	
+	public Heroe() {
+		super();
+		this.alterEgo = "Superman";
+		this.Nombre = "Clark Joseph Kent";
+		this.Edad = 83;
+		this.Salud = 100;
+	}
+
+
+	public Heroe(String alterEgo, String nombre, Integer edad, Integer salud) {
+		super();
+		this.alterEgo = alterEgo;
+		this.Nombre = nombre;
+		this.Edad = edad;
+		this.Salud = salud;
+	}
+	
+};

@@ -1,0 +1,39 @@
+package PRACTICA1;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.RandomAccessFile;
+
+public class Pracej3 {
+
+	public static void main(String[] args) throws IOException {
+		/*
+		  3) Escritura: Inserta datos de un quiosco en un fichero llamado “quiosco.dat” a través
+			de la siguiente información:
+			Estantería = {3,2,3,8,1}
+			TipoChucheria = {“Chicles”, “Gusanitos”, “Gominola”, “Pipas”,
+			“Piruletas”}
+			PrecioSinIva = {3.2, 18.5, 2.5,15.17, 12.40}
+			Por cada producto también se insertará un identificador (mayor que 0) que
+			coincidirá con el índice +1 con el que se recorrerán los datos anteriores. El tamaño
+			del campo tipoChucheria será fijo y ocupará 20 caracteres. Debe hacer uso de la
+			clase RandomAccessFile.
+		 */
+		File fichero = new File("C:\\Users\\Usuario\\OneDrive\\Documents\\Programación\\acceso\\src\\PRACTICA1\\quiosco.dat");
+		FileWriter fr2 = new FileWriter(fichero);
+		RandomAccessFile raf=new RandomAccessFile(fichero,"rw");
+		Integer[] Estanteria= {3,2,3,8,1};
+		String[] TipoChucheria= {"Chicles","Gusanitos","Gominola","Pipas","Piruletas"};
+		Double[] PrecioSinIva= {3.2,18.5,2.5,15.17,12.40};
+		int id=0;
+
+		while (id!=Estanteria.length) {
+			
+		}
+	}
+
+}

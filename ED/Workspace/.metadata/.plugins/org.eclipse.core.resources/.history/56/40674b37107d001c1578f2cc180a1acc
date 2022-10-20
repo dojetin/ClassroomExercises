@@ -1,0 +1,69 @@
+
+public class Heroe {
+	private String alterEgo;
+	private String nombre;
+	private Integer edad; 
+	private Integer salud; 
+
+	public void recibeDanyo(Integer danyo) {
+		this.salud=this.salud-danyo;
+	}
+	
+	public Heroe() {
+		super();
+		this.alterEgo = "Superman";
+		this.nombre = "Clark Joseph Kent";
+		this.edad = 83;
+		this.salud = 100;
+	}
+
+
+	public Heroe(String alterEgo, String nombre, Integer edad, Integer salud) {
+		super();
+		this.alterEgo = alterEgo;
+		this.Nombre = nombre;
+		this.Edad = edad;
+		this.Salud = salud;
+	}
+
+
+	public String getAlterEgo() {
+		return alterEgo;
+	}
+
+
+	public void setAlterEgo(String alterEgo) {
+		this.alterEgo = alterEgo;
+	}
+
+
+	public String getNombre() {
+		return Nombre;
+	}
+
+
+	public void setNombre(String nombre) {
+		Nombre = nombre;
+	}
+
+
+	public Integer getEdad() {
+		return Edad;
+	}
+
+
+	public void setEdad(Integer edad) {
+		Edad = edad;
+	}
+
+
+	public Integer getSalud() {
+		return Salud;
+	}
+
+
+	public void setSalud(Integer salud) {
+		Salud = salud;
+	}
+	
+};

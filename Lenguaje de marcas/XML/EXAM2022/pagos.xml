@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pagos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/Usuario/OneDrive/Documents/Lenguaje%20de%20marcas/XML/EXAM2022/pagos.xsd">
+  <nombre>Javier Toledano</nombre>
+  <fechaNacimiento>1979-02-04</fechaNacimiento>
+  <hora>23:55:15</hora>
+  <hora>23:55:15</hora>
+  <precio>123.56</precio>
+  <cantidad>678</cantidad>
+  <pagado>true</pagado>
+</pagos>

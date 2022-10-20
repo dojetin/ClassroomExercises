@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE almacen SYSTEM "file:/C:/Users/Usuario/OneDrive/Documents/Lenguaje%20de%20marcas/XML/DTD/ej1.dtd">
+<almacen>
+<articulo>
+<codigo>1</codigo>
+<nombre>pepe</nombre>
+<descripcion>Frikki</descripcion>
+<categoria>persona</categoria>
+<precio>14</precio>
+</articulo>
+<articulo>
+<codigo>2</codigo>
+<nombre>pizza</nombre>
+<categoria>comida</categoria>
+</articulo>
+</almacen>

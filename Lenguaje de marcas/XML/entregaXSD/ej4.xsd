@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="listin">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="persona" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  
+    <xs:element name="persona">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre" maxOccurs="unbounded"/>
+        <xs:element name="email" maxOccurs="unbounded"/>
+        <xs:element ref="relacion" minOccurs="0"/>
+      </xs:sequence>
+              <xs:attribute name="sexo" type="xs:string"></xs:attribute>
+              <xs:attribute name="id" type="xs:string"></xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  
+  
+      <xs:element name="relacion">
+    <xs:complexType>
+              <xs:simpleContent>
+                  <xs:extension base="xs:string">
+                              <xs:attribute name="amigo-de" type="xs:string"></xs:attribute>
+                  </xs:extension>
+              </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

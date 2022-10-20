@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="javax.swing.text.StyledEditorKit.ForegroundAction"/>
+    <fullyQualifiedTypeName name="java.security.DrbgParameters.NextBytes"/>
+    <fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
+    <fullyQualifiedTypeName name="puertas.Persona"/>
+    <fullyQualifiedTypeName name="ejerciciosPracticar.Persona"/>
+    <fullyQualifiedTypeName name="cancionario.Cancion"/>
+    <fullyQualifiedTypeName name="Ex1.Empleado"/>
+    <fullyQualifiedTypeName name="seleccionFesac.Medico"/>
+    <fullyQualifiedTypeName name="seleccionFesac.Entrenador"/>
+    <fullyQualifiedTypeName name="seleccionFesac.Jugador"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.time.YearMonth"/>
+    <fullyQualifiedTypeName name="badman.Personas"/>
+    <fullyQualifiedTypeName name="Transporte.Paquete"/>
+    <fullyQualifiedTypeName name="Transporte.PaqueteGrande"/>
+    <fullyQualifiedTypeName name="Transporte.PaquetePequeño"/>
+    <fullyQualifiedTypeName name="Transporte.Carta"/>
+    <fullyQualifiedTypeName name="Transporte.CartaCertificada"/>
+    <fullyQualifiedTypeName name="Ej11final.Pokemones"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="ExamenFINAL.Digimon"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.DataOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.DataInputStream"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="javax.xml.parsers.SAXParserFactory"/>
+    <fullyQualifiedTypeName name="javax.xml.parsers.SAXParser"/>
+    <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="java.io.RandomAccessFile"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+</qualifiedTypeNameHistroy>

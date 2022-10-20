@@ -1,0 +1,24 @@
+package PRACTICA1;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.RandomAccessFile;
+
+public class Pracej4 {
+
+	public static void main(String[] args) throws IOException {
+		/*
+		  4) Lectura: A partir del fichero anterior “quiosco.dat” y haciendo uso de la clase
+			RandomAccessFile, visualiza todos los registros. El posicionamiento para
+			empezar a recorrer los registros empieza en 0.
+			La ejecución de este ejercicio debe quedar así:
+			ID: 1, Estanteria: 3, TipoChuicheria: Chicles, PrecioSinIva: 3.2
+			ID: 2, Estanteria: 2, TipoChuicheria: Gusanitos, PrecioSinIva: 18.5
+		 */
+		File fichero = new File("C:\\Users\\Usuario\\OneDrive\\Documents\\Programación\\acceso\\src\\PRACTICA1\\quiosco.dat");
+		RandomAccessFile raf=new RandomAccessFile(fichero,"rw");
+		
+	}
+
+}

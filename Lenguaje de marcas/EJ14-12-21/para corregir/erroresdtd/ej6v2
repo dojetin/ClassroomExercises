@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE paises SYSTEM "file:/C:/Users/Usuario/OneDrive/Documents/Lenguaje%20de%20marcas/EJ14-12-21/para%20corregir/erroresdtd/dtdej6v2.dtd">
+<paises>
+  <pais>
+    <nombre>España</nombre>
+    <unionEuropea />
+    <otan />
+  </pais>
+  <pais>
+    <nombre>Noruega</nombre>
+    <otan />
+  </pais>
+  <pais>
+    <nombre>Austria</nombre>
+    <unionEuropea />
+  </pais>
+</paises>

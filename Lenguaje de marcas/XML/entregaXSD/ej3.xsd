@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  
+  <xs:element name="lista_de_cargos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="cargo" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+    <xs:element name="cargo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="uniforme" maxOccurs="unbounded"/>
+      </xs:sequence>
+              <xs:attribute name="nombre" type="xs:string"></xs:attribute>
+              <xs:attribute name="sueldo" type="xs:integer"></xs:attribute>
+    </xs:complexType>
+  </xs:element>
+  
+      <xs:element name="uniforme">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="gorro" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="prenda_sup" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element ref="prenda_inf" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+    <xs:element name="gorro">
+              <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                        <xs:attribute name="tipo" type="xs:string"></xs:attribute>
+                                        <xs:attribute name="color" type="xs:string"></xs:attribute>
+                            </xs:extension>
+                        </xs:simpleContent>
+              </xs:complexType>
+    </xs:element>
+    
+        <xs:element name="prenda_sup">
+              <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                        <xs:attribute name="tipo" type="xs:string"></xs:attribute>
+                                        <xs:attribute name="color" type="xs:string"></xs:attribute>
+                                        <xs:attribute name="manga" type="xs:string"></xs:attribute>
+                            </xs:extension>
+                        </xs:simpleContent>
+              </xs:complexType>
+    </xs:element>
+    
+            <xs:element name="prenda_inf">
+              <xs:complexType>
+                        <xs:simpleContent>
+                            <xs:extension base="xs:string">
+                                        <xs:attribute name="tipo" type="xs:string"></xs:attribute>
+                                        <xs:attribute name="color" type="xs:string"></xs:attribute>
+                                        <xs:attribute name="cierre" type="xs:string"></xs:attribute>
+                            </xs:extension>
+                        </xs:simpleContent>
+              </xs:complexType>
+    </xs:element>
+</xs:schema>

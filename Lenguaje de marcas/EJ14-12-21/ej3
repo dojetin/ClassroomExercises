@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+  <lenjuage horas_semana="4">
+    <alumnos>
+      <alumno>
+      <datos_personales>
+        <nombre>Ana</nombre>
+        <apellido1>Fernández</apellido1>
+        <apellido2>Gutiérrez</apellido2>
+        <NIF>16965696L</NIF>
+        <telefono>789654321</telefono>
+        <email>fdezgtrrez@hotmail.com</email>      
+      </datos_personales>
+      <direccion>
+        <calle>El Percebe</calle>
+        <numero>13</numero>
+        <ciudad>Santander</ciudad>
+        <CP>39302</CP>
+        <asistencia>No hay información sobre las faltas de asistencia o sus notas hasta el momento.</asistencia>
+      </direccion>
+      </alumno>
+      <alumno>
+      <datos_personales>
+        <nombre>Pepito</nombre>
+        <apellido1>Grillo</apellido1>
+        <NIF>98765432H </NIF>
+        <telefono>656566555 </telefono>
+        <email>yhyh@yahoo.com</email>      
+      </datos_personales>
+      <direccion>
+        <calle>Avd. El pez</calle>
+        <numero>5</numero>
+        <ciudad>Suances</ciudad>
+        <CP>39401</CP>
+        <nota>apto</nota>
+        <asistencia>No hay información sobre las faltas de asistencia o sus notas hasta el momento.</asistencia>
+      </direccion>
+      </alumno>
+    </alumnos>
+    <duracion>
+    <fecha_inicio>
+     <dia>15</dia> 
+     <mes>septiembre</mes>
+     <año>2020</año>
+    </fecha_inicio>
+    <fecha_fin>
+     <dia>30</dia>
+     <mes>junio</mes>
+     <año>2021</año>
+     </fecha_fin>
+    </duracion>
+  </lenjuage>

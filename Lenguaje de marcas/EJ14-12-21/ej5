@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<facturas>
+  <factura>
+  <n_fac></n_fac>
+  <n_cli></n_cli>
+  <n_ped></n_ped>
+  <numero_tlf>917776688</numero_tlf>
+  <fax>917776699</fax>
+  <forma_pago></forma_pago>
+  <moneda>euro</moneda>
+  <IVA></IVA>
+  </factura>
+  <factura>
+  <n_fac></n_fac>
+  <n_cli></n_cli>
+  <n_ped></n_ped>
+  <numero_tlf>917776688</numero_tlf>
+  <fax>917776699</fax>
+  <forma_pago></forma_pago>
+  <moneda>euro</moneda>
+  <IVA></IVA>
+  </factura>
+</facturas>

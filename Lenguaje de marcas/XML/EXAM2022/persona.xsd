@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="persona">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="estadoCivil"/>
+        <xs:element ref="edad"/>
+        <xs:element ref="enActivo" minOccurs="0"/>
+      </xs:sequence>
+      <xs:attribute name="dni" type="tipoDNI" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:simpleType name="tipoDNI">
+<xs:restriction base="xs:string">
+          <xs:pattern value="[0-9]{8}-[A-Z]"/>
+</xs:restriction>
+</xs:simpleType>
+  
+  <xs:element name="estadoCivil" default="Soltero">
+              <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                              <xs:enumeration value="Soltero"></xs:enumeration>
+                              <xs:enumeration value="Casado"></xs:enumeration>
+                              <xs:enumeration value="Divorciado"></xs:enumeration>
+                              <xs:enumeration value="Viudo"></xs:enumeration>
+                  </xs:restriction>
+              </xs:simpleType>
+  </xs:element>
+  
+  <xs:element name="edad">
+              <xs:simpleType>
+                  <xs:restriction base="xs:integer">
+                      <xs:minInclusive value="1"/>
+                      <xs:maxInclusive value="120"/>
+                  </xs:restriction>
+              </xs:simpleType>
+  </xs:element>
+  
+ <xs:element name="enActivo">
+    <xs:complexType>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

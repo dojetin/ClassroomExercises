@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<alumnos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/Usuario/OneDrive/Documents/Lenguaje%20de%20marcas/XML/explicacion/ej1schema.xsd">
+<alumno var="123">
+    <nombre dni="12345678A">Juan</nombre>
+    <edad>23</edad>
+    <nota>8.5</nota>
+</alumno>
+
+<alumno var="123">
+    <nombre dni="12345678A">Luis</nombre>
+    <edad>23</edad>
+    <nota>4.5</nota>
+</alumno>
+</alumnos>

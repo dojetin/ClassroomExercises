@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libro [
+<!ELEMENT libro (titulo, contenido, copyright)>
+
+<!ATTLIST libro id CDATA #REQUIRED>
+
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT contenido (capitulo, separacion?)>
+<!ELEMENT capitulo (tema, seccion+)>
+
+<!ATTLIST capitulo materia CDATA #IMPLIED>
+
+<!ELEMENT tema (#PCDATA)>
+<!ELEMENT seccion (#PCDATA)>
+
+<!ATTLIST seccion apartados CDATA #REQUIRED dificil CDATA
+#IMPLIED>
+
+<!ELEMENT separacion EMPTY>
+<!ELEMENT copyright (#PCDATA)>
+]>
+
+<libro id="1">
+      <titulo>Azucar moreno</titulo>
+      <contenido>
+          <capitulo materia="nose">
+            <tema>Como se hace el caramelo</tema>
+            <seccion apartados="primero" dificil="si">2</seccion>
+          </capitulo>
+      </contenido>
+      <copyright></copyright>
+</libro>
+DEBEN SER VALIDADOS POR SEPARADO Y ESTE MENSAJE SER BORRADO
+<libro id="2">
+      <titulo>Azucar moreno</titulo>
+      <contenido>
+          <capitulo materia="nose">
+            <tema>Como se hace el caramelo</tema>
+            <seccion apartados="primero" dificil="si">2</seccion>
+          </capitulo>
+          <separacion></separacion>
+      </contenido>
+      <copyright></copyright>
+</libro>

@@ -1,0 +1,43 @@
+package PRACTICA1;
+
+import java.util.Scanner;
+
+public class Pracej7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 	7) Modificación: Recibe un identificador de chuchería y un importe. Se debe realizar
+				la modificación del precio. La modificación consistirá en sumar al precio de la
+				chuchería el importe introducido. El programa debe visualizar el Tipo de
+				chuchería, el precio antiguo y el nuevo. Si el identificador no existe, se realizará
+				una inserción del mismo y se informará de la operación realizada.
+		 */
+		Scanner sc = new Scanner (System.in);
+		System.out.println("Dime el identificador de la chuchería");
+		int id=sc.nextInt();
+		System.out.println("Dime el importe");
+		double importe=sc.nextDouble();
+		int posSeek=-56;
+		boolean existe=false;
+		try {
+
+
+			while (true) {
+				posSeek+=56;
+				raf.seek(posSeek);
+				int idArchivo=raf.readInt();
+				if (idArchivo==id) {
+					System.out.println("Este idenficador ya existe");
+					existe=true;
+				}
+			}
+		} catch (Exception e) {
+			if (existe==false) {}
+		
+		
+		
+			}
+
+		}
+	}

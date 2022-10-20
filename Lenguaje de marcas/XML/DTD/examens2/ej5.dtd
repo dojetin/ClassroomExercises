@@ -1,0 +1,19 @@
+<!ELEMENT empresa (nombre, provincia, CP, departamentos*, empleados*)>
+<!ELEMENT departamentos (departamento)*>
+<!ELEMENT departamento (nombre)>
+<!ELEMENT empleados (empleado)*>
+
+<!ELEMENT empleado (nombre, apellidos, dni, provincia?, telefono+)>
+<!ELEMENT telefono (#PCDATA)>
+
+
+<!ATTLIST departamento idDepartamento ID #REQUIRED>
+<!ATTLIST telefono prefijo (34 | 39) #IMPLIED>
+<!ATTLIST empleado idDpto IDREF #REQUIRED>
+
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT CP (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT dni (#PCDATA)>

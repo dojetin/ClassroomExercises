@@ -1,0 +1,60 @@
+<!DOCTYPE empresa [
+<!ELEMENT empresa (nombre, provincia, CP, departamentos*, empleados*)>
+<!ELEMENT departamentos (departamento)*>
+<!ELEMENT departamento (nombre)>
+<!ELEMENT empleados (empleado)*>
+
+<!ELEMENT empleado (nombre, apellidos, dni, provincia?, telefono+)>
+<!ELEMENT telefono (#PCDATA)>
+<!ENTITY cal "Departamento de calidad">
+
+
+<!ATTLIST departamento idDepartamento ID #REQUIRED>
+<!ATTLIST telefono prefijo (34 | 39) #IMPLIED>
+<!ATTLIST empleado idDpto IDREF #REQUIRED>
+
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT provincia (#PCDATA)>
+<!ELEMENT CP (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT dni (#PCDATA)>
+]>
+<empresa>
+      <nombre>FERE S.L</nombre>
+      <provincia>Sevilla</provincia>
+      <CP>41089</CP>
+      <departamentos>
+          <departamento idDepartamento="num1">
+            <nombre>RRHH</nombre>
+          </departamento>
+          <departamento idDepartamento="num2">
+            <nombre>Frescos</nombre>
+          </departamento>
+      </departamentos>
+      
+      
+      <empleados>
+      <empleado  idDpto="num1">
+          <nombre>Juan</nombre>
+          <apellidos>Perez</apellidos>
+          <dni>657849998H</dni>
+          <provincia>Sevilla</provincia>
+          <telefono prefijo="34">123456789</telefono>
+      </empleado>
+          <empleado  idDpto="num1">
+          <nombre>Juanito</nombre>
+          <apellidos>Perezo</apellidos>
+          <dni>657849998H</dni>
+          <provincia>Sevilla</provincia>
+          <telefono prefijo="34">123456789</telefono>
+      </empleado>
+          <empleado  idDpto="num2">
+          <nombre>PEPE</nombre>
+          <apellidos>Perez</apellidos>
+          <dni>60000008H</dni>
+          <provincia>Sevilla</provincia>
+          <telefono prefijo="34">123456559</telefono>
+      </empleado>
+      </empleados>
+</empresa>

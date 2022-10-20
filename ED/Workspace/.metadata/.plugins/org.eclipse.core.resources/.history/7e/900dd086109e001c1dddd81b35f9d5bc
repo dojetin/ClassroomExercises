@@ -1,0 +1,15 @@
+package junit;
+
+import java.util.Iterator;
+
+public class sumatorio {
+	
+	
+	public int Sumita(int num1) {
+	int total;	
+	
+	total=num1%10;
+	total=total+(num1%100/10-total);
+		return total;
+	}
+}

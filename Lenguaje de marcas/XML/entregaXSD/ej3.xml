@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<lista_de_cargos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/Usuario/OneDrive/Documents/Lenguaje%20de%20marcas/XML/entregaXSD/ej3.xsd">
+      <cargo nombre="guru" sueldo="60000">
+            <uniforme>
+                  <gorro tipo="turbante" color="rojo"></gorro>
+                  <prenda_sup tipo="chilaba" color="azul" manga="larga"></prenda_sup>
+            </uniforme>
+      </cargo>
+      <cargo nombre="operador" sueldo="4800">
+            <uniforme>
+                  <gorro tipo="peineta" color="floreada"></gorro>
+            </uniforme>
+      </cargo>
+      <cargo nombre="programador" sueldo="40000">
+            <uniforme>
+                  <prenda_sup tipo="camiseta" color="verde" manga="corta"></prenda_sup>
+                  <prenda_inf tipo="chandal" color="caqui" cierre="cuerda"></prenda_inf>
+                  <prenda_inf tipo="zapatos" color="negro" cierre="cordón"></prenda_inf>
+            </uniforme>
+      </cargo>
+</lista_de_cargos>

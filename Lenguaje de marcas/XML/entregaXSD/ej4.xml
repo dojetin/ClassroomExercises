@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<listin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/Usuario/OneDrive/Documents/Lenguaje%20de%20marcas/XML/entregaXSD/ej4.xsd">
+      <persona sexo="hombre" id="manu">
+          <nombre>Manuel Martin</nombre>
+          <email>rick@yahoo.com</email>
+          <relacion amigo-de="antonia"></relacion>
+      </persona>
+      <persona sexo="mujer" id="antonia">
+          <nombre>Antonia Casta</nombre>
+          <email>castal@micasa.com</email>
+      </persona>
+</listin>

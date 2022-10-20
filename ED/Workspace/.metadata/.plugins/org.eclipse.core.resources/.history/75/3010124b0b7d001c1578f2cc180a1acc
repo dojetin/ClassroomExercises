@@ -1,0 +1,7 @@
+
+public class Heroe {
+	private String alterEgo;
+	private String Nombre;
+	private Integer Edad; 
+	private Integer Salud; 
+}

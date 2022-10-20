@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE serie SYSTEM "file:/C:/Users/Usuario/OneDrive/Documents/Lenguaje%20de%20marcas/XML/DTD/ej2.dtd">
+<serie>
+<capitulos>
+<temporada>1</temporada>
+<numero>4</numero>
+<titulo>Pato</titulo>
+<duracion>1:45</duracion>
+<opiniones>Mal</opiniones>
+</capitulos>
+<capitulos>
+<temporada>5</temporada>
+<numero>2</numero>
+<titulo>Pato</titulo>
+<duracion>1:5</duracion>
+<opiniones>Bien</opiniones>
+</capitulos>
+</serie>

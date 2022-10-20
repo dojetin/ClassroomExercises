@@ -1,0 +1,38 @@
+package PRACTICA1;
+
+import java.io.File;
+import java.io.IOException;
+import java.io.RandomAccessFile;
+import java.util.Scanner;
+
+public class Pracej8 {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		/*
+		 8) Borrado: Crea un método Java que reciba un identificador de chuchería y lo borre.
+			Se hará un borrado lógico marcando el registro con la siguiente información: el
+			identificador será igual a -1, el tipo será igual al identificador que se borra y la
+			estantería y precio serán 0.
+		 */
+		Scanner sc = new Scanner (System.in);
+		File fichero = new File("C:\\Users\\Usuario\\OneDrive\\Documents\\Programación\\acceso\\src\\PRACTICA1\\quiosco.dat");
+		RandomAccessFile raf=new RandomAccessFile(fichero,"rw");
+		
+		System.out.println("Dime el identificador");
+		int id=sc.nextInt();
+		boolean existe=false;
+		int puntero=((id-1)*56);
+		raf.seek(puntero);
+		while (true) {
+			int idArchivo=raf.readInt();
+			if (idArchivo==id) {
+				
+			}else {
+				puntero+=56;
+				raf.seek(puntero);
+			}
+		}
+	}
+
+}

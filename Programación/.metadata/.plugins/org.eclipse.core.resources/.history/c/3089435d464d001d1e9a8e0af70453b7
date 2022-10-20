@@ -1,0 +1,16 @@
+package PRACTICA1;
+
+public class Pracej8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		/*
+		 8) Borrado: Crea un método Java que reciba un identificador de chuchería y lo borre.
+			Se hará un borrado lógico marcando el registro con la siguiente información: el
+			identificador será igual a -1, el tipo será igual al identificador que se borra y la
+			estantería y precio serán 0.
+		 */
+		
+	}
+
+}

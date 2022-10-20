@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE universidad[
+<!ELEMENT universidad (profesores*, asignaturas*, alumnos*)>
+<!ELEMENT profesores (nombre, apellidos, dni)>
+<!ATTLIST profesores idProfesor ID #REQUIRED>
+<!ELEMENT asignaturas (nombre)>
+<!ATTLIST asignaturas idAsignaturas ID #REQUIRED>
+<!ATTLIST asignaturas idProfesor IDREF #REQUIRED>
+<!ELEMENT alumnos (nombre, apellidos, edad, numero)>
+<!ATTLIST alumnos idAsignaturas IDREF #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellidos (#PCDATA)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+]>
+
+<universidad>
+  <profesores idProfesor="1">
+        <nombre>David</nombre>
+        <apellidos>Martin Lopez</apellidos>
+        <dni>32454554R</dni>
+    </profesores>
+    <asignaturas id_asignatura="1" id_profesor="1">
+        <nombre>S.I</nombre>
+    </asignaturas>
+    <alumnos id_asignatura="1">
+        <nombre>Pedro</nombre>
+        <apellidos>Feo Guapo</apellidos>
+        <edad>26</edad>
+        <numero>4</numero>
+    </alumnos>
+</universidad>

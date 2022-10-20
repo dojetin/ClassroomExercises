@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<atomos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/Usuario/OneDrive/Documents/Lenguaje%20de%20marcas/XML/cosonuevo/schema.xsd">
+    <atomo estado="gaseoso">
+      <nombre>Hidrogeno</nombre>
+      <simbolo>H</simbolo>
+      <numero_atomico>1</numero_atomico>
+      <peso_atomico>0,0001</peso_atomico>
+      <punto_ebullicion unidades="kelvin">0,1</punto_ebullicion>
+      <carga tipo="negativa">1</carga>
+    </atomo>
+</atomos>

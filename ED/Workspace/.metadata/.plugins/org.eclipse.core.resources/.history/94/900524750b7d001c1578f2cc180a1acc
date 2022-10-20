@@ -1,0 +1,17 @@
+
+public class Heroe {
+	
+	private String alterEgo;
+	private String Nombre;
+	private Integer Edad; 
+	private Integer Salud; 
+
+	
+	public Heroe(String alterEgo, String nombre, Integer edad, Integer salud) {
+		super();
+		this.alterEgo = alterEgo;
+		Nombre = nombre;
+		Edad = edad;
+		Salud = salud;
+	}
+};

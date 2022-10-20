@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="editoriales">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="editorial" minOccurs="0" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+  
+      <xs:element name="editorial">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nombre"/>
+        <xs:element name="direccion"/>
+        <xs:element name="email" minOccurs="0"/>
+        <xs:element name="pagina" minOccurs="0"/>
+        <xs:element name="telefono" minOccurs="0"/>
+        <xs:element name="fax" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>  
+  
+</xs:schema>
